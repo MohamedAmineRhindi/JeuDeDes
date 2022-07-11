@@ -2,7 +2,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class Joueur {
     private String nom;
-    private int score = 0;
+    private int score;
 
     public Joueur(String nom) {
         this.nom = nom;
